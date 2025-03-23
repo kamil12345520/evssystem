@@ -1,1 +1,4 @@
-# evssystem
+# create first project in PHP
+-DOWNLOAD XAAIM
+-INSTALL XXAIMM
+-CREATE A NEW PHP FILE IN THE PROJECT FOLDER 
