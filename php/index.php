@@ -1,13 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
-</head>
-<body>
-  <h1> myself is kamil mehtab </h1>  
-  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium officia magnam culpa distinctio consequuntur iste ipsam dignissimos exercitationem perferendis temporibus harum error rerum deserunt obcaecati adipisci asperiores, facilis quaerat tempore?</p>
-  
-</body>
-</html>
+<?php include('./include/header.php'); ?>
+<div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card rounded-0">
+                    <div class="card-header">
+                        <i class="fa fa-sign-in"></i> Login Here
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for=""><i class="fa fa-envelope"></i> Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for=""><i class="fa fa-lock"></i> Password </label>
+                            <input type="password" class="form-control">
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-danger float-end rounded-0">
+                            <i class="fa fa-sign-in"></i> Login
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<?php include('./include/footer.php'); ?>
+
