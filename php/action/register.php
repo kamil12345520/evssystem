@@ -8,8 +8,9 @@
   //condition
   if ($password == $cpassword){
     echo 'password is matched';
-  }else{
+  } else{
     //redirect
-    header('Location:.../register.php');
+    $warning = "Password Did Not Matched";
+    header('Location: ../register.php?warning='.$warning);
   }
-?> 
+?>  
