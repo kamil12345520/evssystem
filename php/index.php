@@ -2,6 +2,7 @@
 <div class="container mt-5">
         <div class="row">
             <div class="col-lg-3">
+                 <?php include('include/flash.php'); ?>
                 <div class="card rounded-0">
                     <div class="card-header">
                         <i class="fa fa-sign-in"></i> Login Here

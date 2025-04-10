@@ -1,7 +1,9 @@
 <?php include('./include/header.php'); ?>
+
 <div class="container mt-5">
     <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-4">
+             <?php include('include/flash.php'); // flash message .. ?>                 
             <div class="card rounded-0">
                 <div class="card-header">
                     <i class="fa fa-user-plus"></i> Register Here

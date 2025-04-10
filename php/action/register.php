@@ -7,6 +7,7 @@
   $gender= $_POST['gender'];
   //condition
   if ($password == $cpassword){
+    include ('../include/cn.php');
     echo 'password is matched';
   } else{
     //redirect
