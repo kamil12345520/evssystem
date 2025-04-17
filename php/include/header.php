@@ -17,17 +17,30 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto">
+        
+        <?php
+          session_start();
+          if(!empty($_SESSION['users'])){
+        ?>
+
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="home.php"><i class= "fa fa-home"></i>Home</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="action/logout.php"><i class= "fa fa-sign-out"></i>logout</a>
+        </li>
+
+        <?php } else { ?>
+
         <li class="nav-item">
           <a class="nav-link" href="register.php"><i class= "fa fa-sign-in"></i>Register</a>
         </li>
     
         <li class="nav-item">
-          <a class="nav-link"  href="index.php"><i class="fa fa-user-plus"></i>Login</a>
+          <a class="nav-link"  href="index.php"><i class="fa fa-sign-in"></i>Login</a>
         </li>
       </ul>
+      <?php } ?>
       
     </div>
   </div>
