@@ -29,3 +29,15 @@
 -what is the difference between echo and print in the PHP
 -What is the use of header function 
 -what we can use in concatination operator in PHP.
+
+# Before Install Laravel Only First Time:
+- Download Composer ..
+- composer global require laravel/installer
+
+# Laravel Installation:
+- Laravel new evssystem
+- For Run Project: php artisan serve
+- Steps For Install Laravel:
+- Install Xampp
+----Install Composer And RUn This command: composer global require laravel/installer
+----For Create New Project In Laravel: Laravel new project-name
