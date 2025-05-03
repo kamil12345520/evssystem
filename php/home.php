@@ -35,7 +35,9 @@ $rows= mysqli_num_rows($result);
             <td> <?php echo $row['dob'];?> </td>
             <td> <?php echo ucfirst($row['gender']); ?> </td>
             <td>
+                <a href= "edit.php?id=<?php echo $row['id'];?>" onclick="confirm('are you sure you want to edit this user?');">             
                 <button class="btn btn-success btn-sm"><i class="fa fa-edit"></i> </button>
+                </a>
                 <a href="action/delete.php?id=<?php echo $row['id'];?>" onclick="confirm('Are you sure you want to delete this user?');">
                 <button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i> </button>
                  </a>
